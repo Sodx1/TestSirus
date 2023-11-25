@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Upload Image</title>
+        <title>Загрузить фотографию</title>
     </head>
     <body>
-        <h2>Upload Image</h2>
+        <h2>Загрузить фотографию</h2>
         <form method="post" enctype="multipart/form-data">
             {% csrf_token %}
             {{ form.as_p }}
-            <button type="submit">Upload</button>
+            <button type="submit">Загрузить</button>
         </form>
         <br>
-        <a href="{% url 'image-list' %}">Back to Image List</a>
+        <a href="{% url 'image-list' %}">Назад</a>
     </body>
 </html>
