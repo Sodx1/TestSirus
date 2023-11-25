@@ -28,9 +28,10 @@ pip install -r requierments.txt
 
 ````
 Доступные ссылки для работы с приложением
-````
 http://127.0.0.1:8000/interface/list/
 http://127.0.0.1:8000/api/images/
+````
+
 
 ````
 Работа приложения
