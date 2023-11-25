@@ -1,8 +1,8 @@
-
-from django.urls import path
-from sirus_app.views import ImageList, ImageDelete
+from django.contrib import admin
+from django.urls import path, include
 
 urlpatterns = [
-    path('images/', ImageList.as_view()),
-    path('images/<int:image_id>/', ImageDelete.as_view()),
+    path('admin/', admin.site.urls),
+    path('api/', include('sirus_api.urls')), 
+    path('interface/', include('image_interface.urls'))
 ]

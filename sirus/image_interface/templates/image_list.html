@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image List</title>
+</head>
+<body>
+    <h2>Image List</h2>
+    <ul>
+        {% for image in images %}
+            <li>
+                {{ image.description }}
+                <a href="{% url 'delete-image' image.id %}" onclick="return confirm('Are you sure you want to delete this image?')">Delete</a>
+            </li>
+        {% endfor %}
+    </ul>
+    <br>
+    <a href="{% url 'upload-image' %}">Upload Image</a>
+</body>
+</html>

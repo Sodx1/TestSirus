@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class SirusAppConfig(AppConfig):
+class ImageInterfaceConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'sirus_app'
+    name = 'image_interface'
