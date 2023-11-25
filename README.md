@@ -45,5 +45,9 @@ activate.bat
 ```
 python manage.py runserver
 ```
-
+Сыллки для работы приложения
+```
+http://127.0.0.1:8000/interface/list/
+http://127.0.0.1:8000/api/images/
+```
 
