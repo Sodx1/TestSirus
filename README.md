@@ -8,7 +8,7 @@
 * Python 3.11.6;
 * Django
 * Django REST Framework
-* MySQL(Реляционая база данных)
+* MySQL(Реляционная база)
 * Requests
 
 ### О проекте
