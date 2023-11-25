@@ -38,17 +38,12 @@ python -m venv venv
 cd venv/Scripts
 activate.bat
 ```
-4. Устанавливаем зависимости из requirements.txt
+3. Устанавливаем зависимости из requirements.txt
 ``` pip install -r requirements.txt ```
-5. Устанавливаем зависимости из requirements.txt
-```Делаем все миграции для этого используйте MySQL. Все параметры находится в файле setings.py```
-6. Запускаем приложение:
+4. Делаем все миграции для этого используйте MySQL. Все параметры находится в файле setings.py
+5. Запускаем приложение:
 ```
 python manage.py runserver
 ```
 
-### Используемые API
----
-- Погода - http://api.openweathermap.org
-- Конвертер валют - https://api.apilayer.com
-- Животные - https://random.dog и https://randomfox.ca
+
