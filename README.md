@@ -50,4 +50,7 @@ python manage.py runserver
 http://127.0.0.1:8000/interface/list/
 http://127.0.0.1:8000/api/images/
 ```
+Фотографии приложения
+![Главный экран](https://github.com/Sodx1/TestSirus/assets/51389727/c131267f-f176-4b5f-8ed6-649edb285231)
+![MySQL](https://github.com/Sodx1/TestSirus/assets/51389727/7080b188-3cd1-4a84-addb-87a10c0dcbe1)
 
